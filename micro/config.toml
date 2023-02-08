@@ -1,0 +1,51 @@
+baseURL = 'https://sl4x0.github.io/'
+languageCode = 'en-us'
+title = 'Muhmmad Mater'
+AuthorName = 'Micro0x00'
+Subtitle = 'Orthognal'
+description = 'Infosec Blog'
+theme = 'coder'
+
+[params]
+  author = "Marcos"
+  description = "Security Researcher 🐛"
+  menu_item_separator = " // "
+
+[menu]
+    [[menu.main]]
+  identifier = "/"
+  name = "Home"
+  url = "/"
+
+  [[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+
+[[params.social]]
+  icon = "github"
+  name = "My Github"
+  url = "https://github.com/Micro0x00"
+
+[[params.social]]
+  icon = "twitter"
+  name = "My Twitter"
+  url = "https://twitter.com/Micro0x00"
+
+[[params.social]]
+  icon = "linkedin"
+  name = "My Twitter"
+  url = "https://linkedin.com/in/Micro0x00"
+ 
+[params.style]
+    darkestColor = "#d35050"
+    darkColor = "#212121"
+    lightColor = "#d6d6d6"
+    lightestColor = "#d3d3d3"
+    primaryColor = "#ffffff"
+    b
